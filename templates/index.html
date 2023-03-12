@@ -1,0 +1,22 @@
+<!--Index.html acts as home page. In home page we write some information like will give 
+details about num1, num2, operation-->
+<html>
+    <body>
+        <!--We need post to work, we need to hit form page-->
+        <form action="/operation" method="POST">
+        <!--This is how dropdown looks in html with help of option-->
+        <select id="operation" name="operation">
+            <option value="add">add</option>
+            <option value="subtract">subtract</option>
+            <option value="multiply">multiply</option>
+            <option value="division">division</option>
+        </select>
+            <!--This is input box with their id-->
+        <input type="text" name="num1" id="num1">
+        <input type="text" name="num2" id="num2">
+            <!--This is calculate button-->
+        <input type="submit" value="Calculate">
+        </form>
+        
+    </body>
+</html>
